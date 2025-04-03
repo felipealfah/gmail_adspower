@@ -14,29 +14,28 @@ Este projeto é uma automação para criar contas do Gmail utilizando o AdsPower
 Crie um Ambiente Virtual no python
 
 ```bash
-python -m venv nome_do_ambiente
+python -m venv env
 ```
 ou 
 ```bash
-python3 -m venv nome_do_ambiente
+python3 -m venv env
 
 ```
 Ativar o Ambiente Virtual:
 
 Para sistemas baseados em Windows, ative o ambiente virtual com:
 ```bash
-.\nome_do_ambiente\Scripts\activate
+.\env\Scripts\activate
 ```
 
 Para sistemas baseados em Unix ou MacOS, use:
 ```bash
-source nome_do_ambiente/bin/activate
+source env/bin/activate
 ```
 Após ativar o ambiente virtual, você verá o nome do ambiente virtual geralmente entre parênteses no início da linha de comando, indicando que qualquer pacote Python que você instalar usando pip será colocado neste ambiente isolado, separado da instalação global do Python.
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/gmail-automation.git
 cd gmail-automation
 ```
 
